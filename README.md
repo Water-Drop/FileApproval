@@ -30,6 +30,7 @@ using servicemix
 	
 		export JAVA_HOME
 	* 打开终端 输入mvn -version，检查maven是否安装好
+	
 ##运行方法
 1. 打开终端，切换文件夹（命令cd）到FileApproval文件夹
 2. 运行mvn install，maven会自动安装构建项目所需要的文件，第一次比较慢orz（如果在一半发现卡住了，关掉终端，重新来一次...）相当于是编译
