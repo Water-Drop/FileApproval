@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1435420903710
+Build-Jdk: 1.8.0_45
+Built-By: Water
+Bundle-Blueprint: OSGI-INF/blueprint/blueprint.xml
+Bundle-Description: Bill-of-materials of the core components and version
+ s used for building the features project(This POM contains the dependen
+ cies and versions that are useful to both users and our own development
+ )
+Bundle-DocURL: http://www.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache ServiceMix :: Examples :: Camel CXF REST :: Service
+Bundle-SymbolicName: camel-cxf-rest-service
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 5.4.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.servicemix.examples.camel.rest.model;version=
+ "5.4.0";uses:="javax.xml.bind.annotation"
+Import-Package: javax.ws.rs.core;resolution:=optional;version="[2.0,3)",
+ javax.xml.bind.annotation;resolution:=optional,org.apache.servicemix.ex
+ amples.camel.rest.model;resolution:=optional;version="[5.4,6)",org.osgi
+ .service.blueprint;version="[1.0.0,2.0.0)";resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Tool: Bnd-2.3.0.201405100607
